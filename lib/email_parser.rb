@@ -6,14 +6,11 @@ class EmailParser
 
 attr_accessor :name, :email_list
 
-def initialize(emails)
-  @emails= emails
-end
-
 def self.parse(emails)
-  @emails= emails
-  email_array = emails.split(" ") #separates emails by spaces
-  email_array
+  email_list = emails.split(" ")
+  all_emails = self.new
+  all_emails = email_list
+  
   #how do we parse by multiple things....
 end
 
