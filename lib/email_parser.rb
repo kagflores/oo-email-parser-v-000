@@ -10,10 +10,8 @@ def initialize(emails)
   @emails = emails
 end
 
-def self.parse(emails)
+def parse(emails)
   email_list = emails.split(" ")
-
-
   #how do we parse by multiple things....
 end
 
