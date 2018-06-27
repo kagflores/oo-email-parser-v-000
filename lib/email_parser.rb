@@ -10,7 +10,7 @@ def initialize(emails)
   @emails= emails
 end
 
-def parse(emails)
+def self.parse(emails)
   @emails= emails
   email_array = emails.split(" ") #separates emails by spaces
   email_array
