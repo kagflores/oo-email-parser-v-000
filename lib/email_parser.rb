@@ -12,7 +12,7 @@ def initialize(emails)
 end
 
 def self.parse
-  email_array = @email_list.split(" ") #separates emails by spaces
+  email_array = @email_list.contents.split(" ") #separates emails by spaces
   email_array
   #how do we parse by multiple things....
 end
