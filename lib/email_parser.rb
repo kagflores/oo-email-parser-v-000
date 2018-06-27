@@ -11,7 +11,7 @@ def initialize(emails)
 end
 
 def self.parse(emails)
-  emails= emails
+  @emails= emails
   email_array = emails.split(" ") #separates emails by spaces
   email_array
   #how do we parse by multiple things....
