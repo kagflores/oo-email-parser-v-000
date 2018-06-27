@@ -11,7 +11,7 @@ def initialize(emails)
 end
 
 def parse
-  email_list = EmailParser.split(" ")
+  email_list = EmailParser.split(\[s,])
   #how do we parse by multiple things....
 end
 
