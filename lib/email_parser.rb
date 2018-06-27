@@ -12,8 +12,8 @@ end
 
 def parse
   email_list = []
-  email_list = EmailParser.split(\[s,])
-  
+  email_list = EmailParser.split(/[s,]/)
+
 end
 
 
